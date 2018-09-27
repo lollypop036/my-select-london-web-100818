@@ -9,5 +9,6 @@ def my_select(collection) {}
 if yield(collection[count-1]) == true
  new_array.push(collection[count-1])
 end
+end
 new_array
 end
